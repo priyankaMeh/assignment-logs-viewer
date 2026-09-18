@@ -134,6 +134,7 @@ function App() {
               Showing <strong>{displayedRecords.length}</strong> of{" "}
               <strong>{records.length}</strong> records
             </div>
+            
 
             <LogTable
               records={displayedRecords}
