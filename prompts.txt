@@ -1,0 +1,47 @@
+Promt 1: 
+
+I Need to create a react application which will do the follwing 
+- Read and parse a NDJSON file line by line 
+- Make sure file is valid NDJSON and will not contains any malfunction data and will not crash the system
+- Also need to take care of empty rows 
+- Return parsed result as an array of json objects
+- List the logs 
+- Allow users to filter and sort records Ascending or descending
+- the UI should be responsive as well 
+
+Make sure the code will be clean/ readable and reusable 
+
+now tell me first what did you understand and what you gonna create and what you are going to use for this
+also keep input type and make sure to validate the file as well and for now go with the file Reader approach  
+and suggest changes accrding to the basic react strusture which i have created using the vite.
+
+Promt 2: 
+
+make you wont make any changes in uploaded file 
+
+Promt 3: 
+
+use latest es6+ features with arrow functions 
+
+Promt 4: (On first testing)
+
+the uploaded file has NDJSON aray not an extension the file extension is eve-sample.jsonl .jsonl it should be accepted while upload nit specific to NDJSON extension
+
+Prompt 5:
+
+and instead of alert i need a warning card in place of alert message use cards/ widgets here for the warnings instead of alerts  
+
+Prompt 6:
+
+- I need main card with the details like 
+
+timestamp, event type, source → destination (IP\:port), and a summary appropriate to that event's type  
+and everything should be 
+human readable format 
+like 
+Title: Value
+
+- the detail about the event should be visible on a popup modal so each card will have a view details/ more button which which will show all the details related to the event 
+- Also A card will have colored alerts according to their severity 
+- make sure the the whole object will not be visible 
+
