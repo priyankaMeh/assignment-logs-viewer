@@ -1,27 +1,50 @@
 <h1 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 27px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">Logs Viewer</h1>
 <br>
 
-<!-- ### ✨ [Demo](https://api.uat.intercommunicator.rzr.app/) -->
 
-<div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://res.cloudinary.com/dqzyaxxxf/image/upload/v1716205365/giicjcibdzhwbtp6dkit.png" style="width:auto; height:270px;"></a><br>
-</div>
+## Logs Viewer
+
+This will allow users upload a .jsonl and parse the file and list the records.
+
+## Tech Stack
+
+- React
+- JavaScript
+- CSS
+## Installation
+
+## Clone the repository:
+
+```sh
+Git Clone https://github.com/priyankaMeh/assignment-logs-viewer.git
+```
+
+## Navigate to the project directory:
+
+```sh
+cd assignment-logs-viewer
+```
 
 ## Prerequisites
 
 - node >= v22.14.0
 - npm >= 10.9.2
 
-## Install
+## Install dependencies:
 
 ```sh
 npm install
 ```
 
-## Usage
+## Usage/ Start the development server:
 
 ```sh
 npm run start
+```
+
+## Run Locally/ Once the application starts:
+```sh
+http://localhost:5173/
 ```
 
 ## Author
