@@ -141,30 +141,7 @@ function App() {
             />
           </>
         )}
-       
-
-        {errors.length > 0 && (
-          <section className="error-section">
-            <h2>Parsing Logs</h2>
-
-            {errors.map((error, index) => (
-              <div
-                className="error-row"
-                key={`${error.line}-${index}`}
-              >
-                {error.line && (
-                  <strong>
-                    Line {error.line}:{" "}
-                  </strong>
-                )}
-
-                {error.message}
-              </div>
-            ))}
-          </section>
-
-          
-        )}
+      
         <EventDetailsModal
           record={selectedRecord}
           onClose={handleCloseDetails}
